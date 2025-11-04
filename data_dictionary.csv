@@ -1,0 +1,16 @@
+Feature,Description,Type,Range/Values
+Pregnancies,Number of times pregnant,Numerical,-1.59 - 1.63
+Glucose,Plasma glucose concentration (mg/dL),Numerical,-2.59 - 2.64
+BloodPressure,Diastolic blood pressure (mm Hg),Numerical,-2.75 - 2.74
+SkinThickness,Triceps skin fold thickness (mm),Numerical,-2.67 - 2.68
+Insulin,2-Hour serum insulin (mu U/ml),Numerical,-2.68 - 2.70
+BMI,Body mass index (kg/m²),Numerical,-2.76 - 2.76
+DiabetesPedigreeFunction,Diabetes pedigree function,Numerical,-1.16 - 2.57
+Age,Age in years,Numerical,-1.68 - 1.66
+Outcome,"Target variable (0: No diabetes, 1: Diabetes)",Numerical,"0, 1"
+AgeGroup,"Age categories (Young, Middle-aged, Senior, Elderly)",Categorical,"['Middle-aged', 'Young', 'Elderly', 'Senior']"
+BMICategory,"BMI categories (Underweight, Normal, Overweight, Obese)",Categorical,"['Normal', 'Overweight', 'Obese', 'Underweight']"
+GlucoseCategory,"Glucose level categories (Low, Normal, Prediabetes, Diabetes, Severe Diabetes)",Categorical,"['Normal', 'Diabetes', 'Prediabetes', 'Low', 'Severe Diabetes']"
+AgeGroup_encoded,"Encoded age groups (0: Young, 1: Middle-aged, 2: Senior, 3: Elderly)",Numerical (Encoded),0 - 3
+BMICategory_encoded,"Encoded BMI categories (0: Underweight, 1: Normal, 2: Overweight, 3: Obese)",Numerical (Encoded),0 - 3
+GlucoseCategory_encoded,"Encoded glucose categories (0: Low, 1: Normal, 2: Prediabetes, 3: Diabetes, 4: Severe Diabetes)",Numerical (Encoded),0 - 4
